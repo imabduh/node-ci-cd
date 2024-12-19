@@ -1,0 +1,20 @@
+{
+  "name": "jenkins-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha ./app.test.mjs"
+  },
+  "keywords": [],
+  "author": "muhammad abduh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "supertest": "^7.0.0"
+  }
+}
